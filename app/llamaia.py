@@ -26,9 +26,7 @@ def ask(urlText):
     
     {{
     "current meet": {{
-        "Meet Title": "Create a title for this meeting",
-        "Current Date": "Current Date when the script execute",
-        "Current Hour": "Current Hour when the script execute",
+        "Meet Title": "Invent a title",
         "integrantes": [""],
         "meeting summary": "Summary this meet in one sentence"
     }},
@@ -48,5 +46,5 @@ def ask(urlText):
     }}
     """
     chat_messages.append(create_message(message, 'user'))
-    print(f'\n\n--{message}--\n\n')
+    #print(f'\n\n--{message}--\n\n')
     chat()

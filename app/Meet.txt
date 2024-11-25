@@ -1,7 +1,0 @@
-Speaker B: Hi, Angie.
-Speaker A: Hi, David. Next week we have to present the new project on Monday at 10am what tasks.
-Speaker B: Are left?
-Speaker A: The presentation document and the smallest scale design.
-Speaker B: Okay, I will do the presentation.
-Speaker A: Okay, I do the smallest scale design. David, after this we have meeting with a client on November 28at 7aM.
-Speaker B: Okay, see you later. Bye.
