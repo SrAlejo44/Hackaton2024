@@ -3,7 +3,7 @@ from convertToText import audioConvert
 from llamaia import ask
 
 def main(apiKey, urlAudio, urlTexto):
-    audioConvert(apiKey, urlAudio)
+    audioConvert(apiKey, urlAudio, urlTexto)
     ask(urlTexto)
     
 main(APIKEY_ASSEMBLYAI, URL_AUDIO, URL_TEXTO)
