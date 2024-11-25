@@ -98,8 +98,8 @@ El archivo config.py contiene las claves necesarias para interactuar con las API
 
 ```python
 APIKEY_ASSEMBLYAI = "tu_api_key_de_assemblyai"
-URL_AUDIO = "./Meet2.mp3"
-URL_TEXTO = "./Meet.txt"
+URL_AUDIO = "../data/Meet2.mp3"
+URL_TEXTO = "../data/Meet.txt"
 ```
 
 ### **Requisitos**
