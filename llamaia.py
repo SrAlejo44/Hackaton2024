@@ -20,17 +20,17 @@ def ask(urlText):
     
     message = f"""
     
-    According to this conversation, fill out the fields in the json format and do not respond anything else.
+    According to this meeting, fill out the fields in the json format and do not respond anything else.
     
     {textMeet}
     
     {{
-    "meet": {{
-        "Meet Title": "",
-        "Current Date": "day/mount/year",
-        "Current Hour": "hour:min:seg",
+    "current meet": {{
+        "Meet Title": "Create a title for this meeting",
+        "Current Date": "Current Date when the script execute",
+        "Current Hour": "Current Hour when the script execute",
         "integrantes": [""],
-        "meeting summary": ""
+        "meeting summary": "Summary this meet in one sentence"
     }},
     "task": [
         {{"Person in charge of the task": "", "Task Title":"", "task description": ""}},
